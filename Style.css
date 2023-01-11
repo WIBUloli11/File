@@ -1,0 +1,244 @@
+/* Source: Princes Akira on GitHub */
+
+:root {
+   /* link background của client mn thay đổi ở dưới */
+   /* 1920x1080 trở lên */
+   --background: url('https://user-images.githubusercontent.com/122444572/211781466-4a95b92a-002b-4f54-bceb-f5474649735b.jpg');
+}
+
+/* UI */
+
+.LcOverview__NavBarSlot-sc-1epub3v-3 {
+   top: 6.6rem;
+   left: 0;
+   right: 0.5rem;
+}
+
+.lpjjXv {
+   background-color: rgba(22, 22, 22, 0.726);
+   border: 1px solid rgba(22, 22, 22, 0.726);
+   border-radius: 0.5rem;
+}
+
+/* Patch Notes */
+
+.article-scrollable-body {
+   padding: 1rem;
+}
+
+.lcu-article-container .article-scrollable-body {
+   display: flex !important;
+   width: 100%;
+   text-align: center;
+   justify-content: center;
+   align-content: center;
+}
+
+/* Backgrounds */
+
+.bKpFom {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+.clash-root-background-landing,
+.hold-leave,
+.collections-application,
+.clash-root-background-landing,
+.__rcp-fe-lol-store,
+.loot-backdrop.background-static,
+.personalized-offers-root,
+.parties-view,
+.yourshop-root,
+.clash-root-background,
+.champion-splash-background
+{
+   background-image: var(--background);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.loot-backdrop .lol-uikit-video-content {
+   background: var(--background);
+   display: block;
+   box-sizing: border-box;
+   width: 180px;
+   height: 236px;
+   padding-left: 180px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.rcp-fe-viewport-sidebar {
+   background-color: black !important;
+}
+
+.parties-view .parties-background {
+   opacity: 0;
+}
+
+.lol-uikit-dialog-frame {
+   background-color: rgba(22, 22, 22, 0.726);
+   border: 1px solid rgba(22, 22, 22, 0.726);
+   border-radius: 0.5rem;
+}
+
+.lol-social-sidebar {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   color: #00000008;
+   font-size: 12px;
+   cursor: default;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   background-color: transparent !important;
+
+   /* background sidebar */
+   /* yêu cầu chính xác 225 x 720 */
+   background: url('https://user-images.githubusercontent.com/122444572/211781647-c5b0f0f7-b621-47ba-b583-f891b1cc1a6a.jpg') !important;
+   box-shadow: inset 0px 0px 1278px #231038;
+   border-radius: 20px 20px 0px 0px;
+}
+
+.details,
+.list-content,
+.champion-name
+{
+   text-shadow: 2px 2px 2px #000;
+}
+
+.name,
+.alpha-tag
+{
+   color: #e21414;
+   text-shadow: 1px 1px 1px #000;
+}
+
+.lol-uikit-dialog-frame.top,
+.lol-uikit-dialog-frame.bottom {
+   border: 2px white solid;
+}
+
+/* Icons */
+
+/* link icon hiển thị THL */
+.currency-be-icon-static {
+   background-image: url('https://lucthienphong1120.github.io/league-loader/plugins/img/THL.png') !important;
+}
+
+/* link icon hiển thị RP */
+.currency-rp {
+   background-image: url('https://lucthienphong1120.github.io/league-loader/plugins/img/RP.png') !important;
+}
+
+/* link icon nút hiển thị thông báo của client (cái nút chấm than màu đỏ hoặc vàng mỗi khi xảy ra lỗi khi còn ở garena ý) */
+.ticker-button {
+   background-image: url('https://lucthienphong1120.github.io/league-loader/plugins/img/alert1.png') !important;
+   transition: all 0.2s ease-in-out;
+}
+
+.ticker-button:hover {
+   background-image: url('https://lucthienphong1120.github.io/league-loader/plugins/img/alert2.png') !important;
+   size: 110%;
+}
+
+.navigation-status-ticker {
+   transition: all 0.2s ease-in-out;
+   size: 102%;
+}
+
+/* Misc */
+.navigation-status-ticker-content-no-link {
+   /* màu nền của khung thông báo lỗi */
+   background-color: #5c4d84;
+   border: 1px solid white;
+   border-radius: 0.5rem;
+   color: rgba(22, 22, 22, 0.726);
+}
+
+.navbar-blur {
+   position: absolute;
+   top: 0;
+   height: 79px;
+   width: 100%;
+   background: transparent;
+}
+
+.navbar_backdrop,
+.clash-tab-hub,
+.collections-routes,
+.__rcp-fe-lol-store iframe,
+.loot-contents,
+.parties-content,
+.clash-tab-team-root,
+.clash-tab-awards,
+.clash-tab-winners {
+   background-color: rgba(22, 22, 22, 0.726) !important;
+   transition: all 0.2s ease-in-out !important;
+}
+
+.personalized-offers-content-wrapper {
+   padding: 1.5rem;
+   border-radius: 0.5rem;
+   height: 95% !important;
+   background-color: rgba(22, 22, 22, 0.726);
+}
+
+.rcp-fe-lol-clash-full-sub-nav,
+.rcp-fe-lol-home-sub-nav {
+   left: 21rem !important;
+}
+
+.collections-sub-nav-component {
+   left: 10rem !important;
+}
+
+.clash-hub {
+   width: auto;
+}
+
+.clash-tab-team-content,
+.clash-hub,
+.custom-game-teams {
+   background-color: rgba(0, 0, 0, 0.8);
+   padding: 1rem;
+   border-radius: 10px;
+}
+
+.clash-tab-hub-content {
+   left: 15px !important;
+   right: 45px !important;
+}
+
+.clash-find-team-header {
+   background-color: transparent !important;
+}
+
+.loot-contents {
+   width: 66rem !important;
+}
+
+.clash-root-faq-button,
+.custom-game-teams {
+   left: 1rem !important;
+}
+
+.v2-header-component {
+   margin: 0;
+}
+
+.ember-application {
+   border: 0;
+}
+
+.purchase-history-page-content-wrapper {
+   background-color: rgba(22, 22, 22, 0.726);
+}
