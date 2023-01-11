@@ -3,7 +3,7 @@
 :root {
    /* link background của client mn thay đổi ở dưới */
    /* 1920x1080 trở lên */
-   --background: url('https://user-images.githubusercontent.com/122444572/211781466-4a95b92a-002b-4f54-bceb-f5474649735b.jpg');
+   --background: url('https://github.com/WIBUloli11/Image/blob/main/1.jpg');
 }
 
 /* UI */
@@ -103,7 +103,7 @@
 
    /* background sidebar */
    /* yêu cầu chính xác 225 x 720 */
-   background: url('https://user-images.githubusercontent.com/122444572/211781647-c5b0f0f7-b621-47ba-b583-f891b1cc1a6a.jpg') !important;
+   background: url('https://github.com/WIBUloli11/Image/blob/main/3%20(1).jpg') !important;
    box-shadow: inset 0px 0px 1278px #231038;
    border-radius: 20px 20px 0px 0px;
 }
